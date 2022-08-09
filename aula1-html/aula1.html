@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Començando o primeiro projeto do evento">
+    <title>calculadora de gorjeta</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de gorjeta</h1>
+    </header>
+
+    <main>
+        <form action="" method="get">
+            <div>
+                <label for="conta">
+                    <p>ficou a conta?</p> 
+                </label>
+
+                <p>R$<input type="number" name="Valor da conta" id="conta" placeholder="100"></p>
+            </div>
+            
+            <div>
+                <label for="serviço">
+                    <p>Como foi o serviço?</p>
+                </label>
+
+                <p>
+                    <select name="nota para o serviço" id="serviço">
+                        <option disabled selected>Escolha uma opção</option>
+                        <option value="0.3">30% - Maravilhoso</option>
+                        <option value="0.2">20% - Otimo</option>
+                        <option value="0.15">15% - Bom</option>
+                        <option value="0.1">10% - Mais ou Menos</option>
+                        <option value="0">-0% - Horrivel</option>
+                    </select>
+                </p>  
+            </div>
+
+            <div>
+                <label for="divisao">
+                    <p>Quantas pessoas vão dividir a conta?</p>
+                </label>
+
+                <p>
+                    <input type="text" name="pessoas que vão dividir a conta" id="divisao"><span>   Pessoas</span>
+                </p>               
+            </div>
+            
+            <div>
+                <button type="submit">CALCULAR!</button>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
