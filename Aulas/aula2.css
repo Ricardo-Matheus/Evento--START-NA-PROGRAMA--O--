@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato & display=swap');
+
+:root {
+    --primeira-cor: lightcoral;
+    --segunda-cor: DimGrey;
+    --terceira-cor: Gainsboro;
+}
+
+body {
+    font-size: 15px;
+    background-color: var(--primeira-cor);
+    font-family: Lato, sans-serif;
+}
+
+main {
+    width: 380px;
+    height: 400px;
+    background: var(--terceira-cor);
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px var(--segunda-cor);
+}
+
+.titulo {
+    background: var(--segunda-cor);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--terceira-cor);
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+form {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 50px;
+    outline: none;
+}
+
+input:focus {
+    border: 3px solid var(--primeira-cor);
+    border-radius: 10px;
+}
+
+select {
+    padding: 8px;
+    outline: none;
+}
+
+select:focus {
+    border: 3px solid var(--primeira-cor);
+    border-radius: 10px;
+}
+
+button {
+    background: var(--primeira-cor);
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: block;
+    text-transform: uppercase;
+}
