@@ -12,7 +12,7 @@ body {
 
 main {
     width: 380px;
-    height: 500px;
+    height: 400px;
     background: var(--terceira-cor);
     margin: 50px auto;
     border-radius: 20px;
@@ -64,11 +64,14 @@ button {
     margin: 20px auto;
     display: block;
     text-transform: uppercase;
+    border : none;
+    color: white
 }
 
 .caixa-do-resultado {
     text-align: center;
     font-size: 20px;
+    margin-top: 30px;
 }
 
 #cada {
