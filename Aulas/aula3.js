@@ -19,7 +19,11 @@ resultado_da_divisão.toFixed(2);
 
 document.getElementById('resultado').innerHTML = resultado_da_divisão;
 document.getElementById('resultado').style.display = 'block'
+document.getElementById('caixa-do-resultado').style.display = 'block'
 
+if (quantidade_de_pessoas > 1) {
+    document.getElementById('cada').style.display = 'block';
+}
 }
 
 document.getElementById('cada').style.display = 'none'
